@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  
+  "name": "MVA Direct to Module",
+  "description": "Show the direct link to the specific module of a MVA (http://www.microsoftvirtualacademy.com) course.",
+  "version": "1.0",
+  
+  "permissions": [
+    "http://www.microsoftvirtualacademy.com/"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["http://www.microsoftvirtualacademy.com/training-courses/*"],
+      "css": ["styles.css"],
+      "js": ["jquery.js", "mvamodulelink.js"]
+    }
+  ]
+}
