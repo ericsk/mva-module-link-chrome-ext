@@ -4,7 +4,9 @@
   "name": "MVA Direct to Module",
   "description": "Show the direct link to the specific module of a MVA (http://www.microsoftvirtualacademy.com) course.",
   "version": "1.0",
-  
+  "icons": {
+    "128": "icon_128.png"
+  },
   "permissions": [
     "http://www.microsoftvirtualacademy.com/"
   ],
